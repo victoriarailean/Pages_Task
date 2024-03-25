@@ -1,0 +1,149 @@
+
+@font-face {
+  font-family: 'RobotoSlab-Regular';
+  font-family: 'Minion-Pro-Regular';
+  font-family: 'RobotoCondensed-Regular';
+  font-family: 'IBMPlexSerif-Regular';
+  font-family: 'IBMPlexSerif-Light';
+  font-family: 'IBMPlexSerif-Italic';
+  font-family: 'IBMPlexSerif-Bold';
+  font-family: 'IBMPlexSans-SemiBold';
+  font-family: 'IBMPlexSans-Regular';
+
+  src: url(Fonts/Document\ fonts/RobotoSlab-Regular.ttf);
+  src: url(Fonts/Document\ fonts/Minion-Pro-Regular.ttf);
+  src: url(Fonts/Document\ fonts/RobotoCondensed-Regular.ttf);
+  src: url(Fonts/Document\ fonts/IBMPlexSerif-Regular.ttf);
+  src: url(Fonts/Document\ fonts/IBMPlexSerif-Light.ttf);
+  src: url(Fonts/Document\ fonts/IBMPlexSerif-Italic.ttf);
+  src: url(Fonts/Document\ fonts/IBMPlexSerif-Bold.ttf);
+  src: url(Fonts/Document\ fonts/IBMPlexSans-SemiBold.ttf);
+  src: url(Fonts/Document\ fonts/IBMPlexSans-Regular.otf);
+}
+
+.leftside, .rightside{
+  height: 888px;
+  width:  750px;
+  
+}
+
+@media screen and (min-widt:768px) {
+  .leftside, .rightside{
+    height: 1000vh;
+    
+  }
+  
+}
+
+.leftside{
+  background-color: rgb(252, 251, 251);
+  
+}
+
+.rightside{
+  /* background-color: aqua; */
+}
+
+.page {
+  min-width: 756px;
+}
+
+.verde{
+  background-color: #008e8c;
+}
+
+.first-element{
+  text-align: center;
+  margin-top: 50%;
+  color: white;
+}
+
+.v{
+  background-color: #ffe696;
+}
+
+.a{
+  background-color: #ffca00;
+}
+
+.r-0 {
+  height: 50px;
+}
+
+.r-1 {
+  height: 30px;
+}
+
+.r-2 {
+  height: 170px;
+}
+
+.c {
+  border-style: dashed;
+  height: 115px;
+}
+
+.second-element{
+  color: #0f9a72;
+  margin-left: 230px;
+  margin-top: 28px;
+  font-family: "RobotoSlab-Regular";
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.t-element{
+  color: #787245;
+  font-family: "RobotoSlab-Regular";
+  font-size: 13px;
+  margin-top: 28px;
+}
+
+.section-element{
+  font-size: 17px;
+  color: #f9a51b;
+  font-weight: bolder
+}
+
+.a-element{
+  color: #369b96;
+  font-size: 15px;
+  font-family: "IBMPlexSans-Regular";
+}
+
+.t-el{
+  background-color: #008e8c;
+  border-radius: 50%;
+  max-width: 4vw;
+  max-height: 4vh;
+ 
+}
+
+.element-r {
+  color: #008e8c;
+  
+}
+
+.text-line-1{
+  font-size: 10px;
+  margin: 3px; 
+}
+
+.sp{
+  background-color: #fff5c5;
+  margin-top: 20px; 
+  color: #ec9b13;
+}
+
+.text-line-2{
+  font-size: 10px;
+  margin: 0; 
+}
+
+.k{
+  background-color: #fefbec;
+}
+
+.l{
+  background-color: #fff5c5;
+}
