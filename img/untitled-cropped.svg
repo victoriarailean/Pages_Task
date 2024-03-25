@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"  width="25px" height="25px" clip-rule="evenodd" fill-rule="evenodd" version="1.1" viewBox="3.5 4.5 151 151">
+ <g class="layer">
+  <title>Layer 1</title>
+  <circle cx="79" cy="80" fill="#7e9513" id="svg_13" r="75" stroke="#7e9513" transform="matrix(1 0 0 1 0 0)"/>
+  <g id="svg_5">
+   <circle cx="79.04" cy="79.26" fill="#ffffff" id="svg_14" r="70.02" stroke-dasharray="2,2"/>
+  </g>
+  <g id="svg_11">
+   <path d="m60.79,83.35c2.64,0.45 4.97,1.62 7,3.5c-10.32,5.49 -15.99,13.99 -17,25.5c20.67,0 41.33,0 62,0c-1.93,-11.35 -7.93,-19.85 -18,-25.5c3.05,-4.03 6.38,-4.36 10,-1c10.2,8.43 14.87,19.27 14,32.5c-25,0 -50,0 -75,0c-0.47,-14.72 5.19,-26.39 17,-35z" fill="#7e9513" id="svg_12" stroke="#7e9513"/>
+  </g>
+  <circle cx="80" cy="56" fill="#7e9513" id="svg_15" r="24" stroke="#7e9513" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="80" cy="56" fill="#ffffff" id="svg_16" r="18" stroke="#7e9513" transform="matrix(1 0 0 1 0 0)"/>
+ </g>
+</svg>
