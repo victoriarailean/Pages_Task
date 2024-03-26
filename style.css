@@ -25,19 +25,10 @@
   src: url(Fonts/Document\ fonts/AdobeFnt23.lst);
 }
 
-/* .leftside, .rightside{
-  height: 888px;
-  width:  750px;
-  
-} 
-
-@media screen and (min-widt:768px) {
-  .leftside, .rightside{
-    height: 1000vh;
-    
-  }
-  
-}  */
+.page-size{
+  height: 900px;
+  width: 640px;
+}
 
 .leftside, .rightside{
   background-color: white;
@@ -68,9 +59,6 @@
 
 .border-c {
   border: 2px dotted #7e9513 !important;
-  min-height: 115px;
-  max-height: 140px;
-  
 }
 
 .description-set{
@@ -107,6 +95,26 @@
  
 }
 
+.separator {
+  border-top: 1px solid #008e8c;
+}
+
+.separator-red {
+  border-top: 1px solid #d04365;
+}
+
+.color-red{
+  color: #d04365
+}
+
+.quiz-tbl td {
+  font-size: 12px;
+  text-align: center;
+  color: #d03f63;
+  font-weight: 500;
+  border: 2px solid white;
+}
+
 .element-color {
   color: #008e8c; 
 }
@@ -121,7 +129,7 @@
 }
 
 .text-line-3{
-  font-size: 11px; 
+  font-size: 10px; 
 }
 
 .element-single-col{
@@ -136,36 +144,34 @@
   font-style: italic;
  }
 
- p {
+.p {
   margin: 0;
   padding: 0;
 }
 
+.pg-nr {
+  font-size: 14px;
+  transform: translate(-12px);
+  color: #008e8c;
+  font-weight: bold;
+}
 
+.pg-nr-right {
+  font-size: 14px;
+  transform: translate(39px);
+  color: #008e8c;
+  font-weight: bold;
+}
 
+.color-test{
+color: #f09724;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.color{
+  color: #7e9513;
+}
 
 .first-element{
-  /* text-align: center;
-  margin-top: 50%; */
   color: white;
 }
 
@@ -181,8 +187,6 @@
 
 .second-element{
   color: #0f9a72;
-  /* margin-left: 230px;
-  margin-top: 28px; */
   font-family: "RobotoSlab-Regular";
   font-size: 13px;
   font-weight: bolder;
@@ -200,22 +204,6 @@
   font-weight: bolder
 }
 
-.sp{
-  background-color: #fff5c5;
-  margin-top: 20px; 
-  color: #ec9b13;
-}
-
-
-
-.k{
-  background-color: #fefbec;
-}
-
-.l{
-  background-color: #fff5c5;
-}
-
 .background-sec{
   color: #d24567;
 }
@@ -227,4 +215,13 @@
 .bag-col{
   background-color: #f8e8e8;
   height: 18 px;
+}
+
+.repere {
+  background-color: #fff5c5;
+  color: #ec9b13;
+}
+
+.repere-bg {
+  background-color: #fefbec;
 }
